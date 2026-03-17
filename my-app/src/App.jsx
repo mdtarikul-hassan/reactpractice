@@ -24,10 +24,21 @@ import Products from "./Products"
 import Phone from "./Phone"
 import Laptop from "./Laptop"
 
+import AutoSaveForm from "./AutoSaveForm"
+import PropDrilling from "./PropDrilling"
+import StateLifting from "./StateLifting"
+import UseContextHook from "./UseContextHook"
+import Counterforusereducer from "./Counterforusereducer"
+import Withusememo from './Withusememo'
+import Parentforusememo from './Parentforusememo'
+
+
 
 
 
 function App() {
+
+    
 
   const isLoggedin = false
   let message;
@@ -113,10 +124,28 @@ function App() {
       <WindowSizeTracker/>
       <br /><br /><br />
       <Users/>
+      <br /><br />
+      {/* <AutoSaveForm/> *that not working now */}
+
+      <br /><br /><br />
+      {/* <PropDrilling/> */}
+
+      <br /><br /><br />
+      {/* <StateLifting/> */}
+      <br /><br /><br />
+
+      <Counterforusereducer/>
+      <br /><br /><br />
+      {/* <Withusememo/> */}
+
+      <Parentforusememo/>
 
 
     </>
   )
 }
+
+
+
 
 export default App
