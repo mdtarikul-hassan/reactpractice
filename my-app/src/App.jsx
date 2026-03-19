@@ -32,6 +32,7 @@ import Counterforusereducer from "./Counterforusereducer"
 import Withusememo from './Withusememo'
 import Parentforusememo from './Parentforusememo'
 import Counterforusecallback from './Counterforusecallback'
+import Testforuselayouteffect from './Testforuselayouteffect'
 
 
 
@@ -143,6 +144,9 @@ function App() {
       <br /><br /><br />
 
       <Counterforusecallback/>
+
+      <br /><br />
+      <Testforuselayouteffect/>
 
 
     </>
