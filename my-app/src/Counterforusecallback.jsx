@@ -1,0 +1,21 @@
+import { useCallback, useState } from "react"
+
+function Counterforusecallback(){
+
+    const[count, setCount] = useState(0)
+
+    const increase = useCallback(() => {
+        setCount((prev) => prev+1)
+    }, [])
+
+
+    return (
+        <>
+            <h2>Count : {count}</h2>
+            <button onClick={increase}>Imcrease</button>
+ 
+
+        </>
+    )
+}
+export default Counterforusecallback

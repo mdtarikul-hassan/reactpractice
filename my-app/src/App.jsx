@@ -31,6 +31,7 @@ import UseContextHook from "./UseContextHook"
 import Counterforusereducer from "./Counterforusereducer"
 import Withusememo from './Withusememo'
 import Parentforusememo from './Parentforusememo'
+import Counterforusecallback from './Counterforusecallback'
 
 
 
@@ -139,6 +140,9 @@ function App() {
       {/* <Withusememo/> */}
 
       <Parentforusememo/>
+      <br /><br /><br />
+
+      <Counterforusecallback/>
 
 
     </>
