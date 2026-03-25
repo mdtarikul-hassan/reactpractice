@@ -33,6 +33,7 @@ import Withusememo from './Withusememo'
 import Parentforusememo from './Parentforusememo'
 import Counterforusecallback from './Counterforusecallback'
 import Testforuselayouteffect from './Testforuselayouteffect'
+import Toggleforcustomhooks from './Toggleforcustomhooks'
 
 
 
@@ -147,6 +148,10 @@ function App() {
 
       <br /><br />
       <Testforuselayouteffect/>
+
+      <br /><br />
+
+      <Toggleforcustomhooks/>
 
 
     </>
