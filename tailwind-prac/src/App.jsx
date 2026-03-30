@@ -71,7 +71,7 @@ function App() {
         </dl>
         <br />
 
-                {/* 2.8 -------- letter spacing ------------- */}
+        {/* 2.8 -------- letter spacing ------------- */}
         <p className="tracking-tighter">letter spacing tighter</p>
         <p className="tracking-tight">letter spacing tight</p>
         <p className="tracking-normal">letter spacing normal</p>
@@ -133,7 +133,62 @@ function App() {
         <p className="text-justify">text justify</p>
         <br />
 
+        {/* 2.13 --------- text decoration line, color, style, thickness , underline offset-------- */}
+        <p className="underline decoration-sky-500 decoration-solid decoration-1 underline-offset-1">underline</p>
+        <p className="underline decoration-slate-500 decoration-double decoration-2 underline-offset-4">underline</p>
+        <p className="underline decoration-sky-800 decoration-dotted">underline</p>
+        <p className="overline decoration-red-600 decoration-dashed">overline</p>
+        <p className="overline decoration-blue-600">overline</p>
+        <p className="overline decoration-bermuda decoration-wavy">overline</p>
+        <p className="line-through decoration-indigo-700 decoration-4">line-through</p>
+        <p className="line-through decoration-indigo-700 decoration-wavy">line-through</p>
+        <p className="no-underline">no-underline</p>
+        <br />
 
+
+        {/* 2.14 --------- text tranaformation ---------- */}
+        <p className="uppercase">Uppercase</p>
+        <p className="lowercase">Lowercase</p>
+        <p className="capitalize">capitalize</p>
+        <p className="normal-case">NormaL-cASE</p>
+        <br />
+
+        {/* 2.15 --------- text overflow ----------- */}
+        <p className="truncate">Text-truncate Lorem ipsum dolor sit amet consectetur adipisicing elit. Et reprehenderit, facilis culpa ducimus reiciendis vel dolorem atque quia autem hic?</p>
+        <p className="text-ellipsis">Text-truncate Lorem ipsum dolor sit amet consectetur adipisicing elit. Et reprehenderit, facilis culpa ducimus reiciendis vel dolorem atque quia autem hic?</p>
+        <p className="text-clip">Text-truncate Lorem ipsum dolor sit amet consectetur adipisicing elit. Et reprehenderit, facilis culpa ducimus reiciendis vel dolorem atque quia autem hic?</p>
+        <br />
+
+        {/* 2.16 -------- text wrap, indent ----------- */}
+        <p className="text-wrap">Text Wrap Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam accusantium, deleniti natus sit vel dignissimos? Excepturi ratione pariatur non totam consequuntur sed dolores labore, reiciendis a eum odit. Eveniet, reprehenderit?</p>
+        <p className="indent-8">Text Wrap Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae ex sit velit rem, ullam ipsum similique sunt cupiditate et, voluptatibus optio non sequi nostrum cum veritatis impedit sint! Eveniet, et!</p>
+        <p className="pl-9 -indent-8">Text Wrap Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, temporibus enim excepturi, quas quisquam rerum porro iure sint quos quam est repudiandae perspiciatis deserunt? Aliquid soluta praesentium quae ut ab.</p>
+        <br />
+
+
+        {/* 2.17 -------- alignment ----------- */}
+        <p className="inline-block align-bottom">verticle bottom alignment Lorem ipsum dolor sit amet.</p>
+        <p className="inline-block align-middle">verticle middle alignment Lorem ipsum dolor sit amet.</p>
+        <p className="inline-block align-top">verticle top alignment Lorem ipsum dolor sit amet.</p>
+        <br />
+
+
+        {/* 2.18 -------- whitespace --------- */}
+        <p className="whitespace-normal">white space          normal       </p>
+        <p className="whitespace-nowrap">white space          normal       </p>
+        <p className="whitespace-pre">white space          normal       </p>
+        <p className="whitespace-break-spaces">white space          normal       </p>
+        <br />
+
+        {/* 2.19 -------- word break -------- */}
+        <p className="break-normal">word break   word     break</p>
+        <p className="break-all">word break   word     break</p>
+        <p className="break-keep">word break   word     break</p>
+
+        <p>todo : content in typography</p>
+
+
+        
 
     </div>
   );
