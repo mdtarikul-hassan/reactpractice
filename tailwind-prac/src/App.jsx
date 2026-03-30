@@ -71,6 +71,69 @@ function App() {
         </dl>
         <br />
 
+                {/* 2.8 -------- letter spacing ------------- */}
+        <p className="tracking-tighter">letter spacing tighter</p>
+        <p className="tracking-tight">letter spacing tight</p>
+        <p className="tracking-normal">letter spacing normal</p>
+        <p className="tracking-wide">letter spacing wide</p>
+        <p className="tracking-wider">letter spacing wider</p>
+        <p className="tracking-widest">letter spacing widest</p>
+        <br />
+
+        {/* 2.9 -------- line clamp --------  */}
+        <article>
+          <time>Mar 10, 2020</time>
+          <h2>Boost your conversion rate</h2>
+          <p class="line-clamp-3">
+            Nulla dolor velit adipisicing duis excepteur esse in duis nostrud occaecat mollit incididunt deserunt sunt. Ut ut
+            sunt laborum ex occaecat eu tempor labore enim adipisicing minim ad. Est in quis eu dolore occaecat excepteur fugiat
+            dolore nisi aliqua fugiat enim ut cillum. Labore enim duis nostrud eu. Est ut eiusmod consequat irure quis deserunt
+            ex. Enim laboris dolor magna pariatur. Dolor et ad sint voluptate sunt elit mollit officia ad enim sit consectetur
+            enim.
+          </p>
+          <div>
+            <img src="/img/lindsay.jpg" />
+            Lindsay Walton
+          </div>
+        </article>
+        <br />
+
+
+        {/* 2.10 --------- line height --------- */}
+        <p className="text-base/6">Line height</p>
+        <p className="text-base/7">Line height</p>
+        <p className="text-base/8">Line height</p>
+        <p className="text-base/9">Line height</p>
+        <p className="leading-5">Line height</p>
+        
+
+        {/* 2.11 ----------- list style position ------------ */}
+        <ul class="list-inside">
+          <li>5 cups chopped Porcini mushrooms</li>
+          <li>5 cups chopped Porcini mushrooms</li>
+          <li>5 cups chopped Porcini mushrooms</li>
+          <li>5 cups chopped Porcini mushrooms</li>
+          <li>5 cups chopped Porcini mushrooms</li>
+        </ul>
+        <ul class="list-outside">
+          <li>5 cups chopped Porcini mushrooms</li>
+          <li>5 cups chopped Porcini mushrooms</li>
+          <li>5 cups chopped Porcini mushrooms</li>
+          <li>5 cups chopped Porcini mushrooms</li>
+          <li>5 cups chopped Porcini mushrooms</li>
+        </ul>
+
+
+        {/* 2.12 -------------- text align ----------- */}
+        <p className="text-center">text center</p>
+        <p className="text-left">text left</p>
+        <p className="text-right">text right</p>
+        <p className="text-end">text end</p>
+        <p className="text-start">text start</p>
+        <p className="text-justify">text justify</p>
+        <br />
+
+
 
     </div>
   );
