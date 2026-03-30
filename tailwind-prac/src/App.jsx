@@ -185,10 +185,70 @@ function App() {
         <p className="break-all">word break   word     break</p>
         <p className="break-keep">word break   word     break</p>
 
-        <p>todo : content in typography</p>
+        <p>todo : content in typography ....</p>
+      <p>---------------------------------------------------------------------------------</p>
+      <br />
 
 
-        
+      {/* 3 --------------------------- spacing --------------------- */}
+
+        {/* 3.1 ------------ margin ---------- */}
+        <div className="bg-red-600 mt-3">
+          <h1 className="text-slate-700">margin top</h1>
+        </div>
+        <div className="bg-red-600 mb-3">
+          <h1 className="text-slate-700">margin bottom</h1>
+        </div>
+        <div className="bg-red-600 ml-5">
+          <h1 className="text-slate-700">margin left</h1>
+        </div>
+        <div className="bg-red-600 mr-5">
+          <h1 className="text-slate-700">margin right</h1>
+        </div>
+        <div className="bg-red-600 mx-6">
+          <h1 className="text-slate-700">margin x axis</h1>
+        </div>
+        <div className="bg-red-600 my-5">
+          <h1 className="text-slate-700">margin y axis</h1>
+        </div>
+        <div className="bg-red-600 m-6">
+          <h1 className="text-slate-700">margin all</h1>
+        </div>
+        <div className="bg-red-600 m-auto">
+          <h1 className="text-slate-700">margin auto</h1>
+        </div>
+        <br />
+
+        {/* 3.2 ---------- padding ------------- */}
+        <div className="bg-[#003049]">
+          <h1 className=" text-[#FCBF49] pt-6">padding top</h1>
+        </div><br />
+        <div className="bg-[#003049]">
+          <h1 className=" text-[#FCBF49] pb-6">padding bottom</h1>
+        </div><br />
+        <div className="bg-[#003049]">
+          <h1 className=" text-[#FCBF49] pl-6">padding left</h1>
+        </div><br />
+        <div className="bg-[#003049]">
+          <h1 className=" text-[#FCBF49] px-6">padding x axis</h1>
+        </div><br />
+        <div className="bg-[#003049]">
+          <h1 className=" text-[#FCBF49] py-6">padding y axis</h1>
+        </div><br />
+        <div className="bg-[#003049]">
+          <h1 className=" text-[#FCBF49] p-6">padding all</h1>
+        </div><br />
+        <div dir="ltr" className="bg-[#003049]">
+          <h1 className=" text-[#FCBF49] ps-6">padding ltr start</h1>
+          <h1 className=" text-[#FCBF49] pe-6">padding ltr end</h1>
+        </div><br />
+        <div dir="rtl" className="bg-[#003049]">
+          <h1 className=" text-[#FCBF49] ps-6">padding rtl start</h1>
+          <h1 className=" text-[#FCBF49] pe-6">padding rtl end</h1>
+        </div><br />
+
+
+
 
     </div>
   );
