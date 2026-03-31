@@ -300,6 +300,19 @@ function App() {
         <div className="bg-cover"></div>
 
 
+      {/* 6 ------------------------- border ------------------ */}
+
+        {/* 6.1 --------------- border radius ------------- */}
+        <div className="size-8 rounded-tl-lg bg-cyan-500"></div>
+        <div className="size-8 rounded-10 bg-cyan-300"></div>
+        <div className="size-8 rounded-full bg-cyan-700"></div>
+        <div className="size-8 rounded-md bg-cyan-500"></div>
+
+
+
+        {/* 6.2 ---------------- border color --------- */}
+        <div className="size-10 bg-red-500 border-black rounded-b-md"></div>
+            {/* stye and another same as border and outline */}
 
 
 
