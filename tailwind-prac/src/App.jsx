@@ -190,7 +190,7 @@ function App() {
       <br />
 
 
-      {/* 3 --------------------------- spacing --------------------- */}
+    {/* 3 --------------------------- spacing --------------------- */}
 
         {/* 3.1 ------------ margin ---------- */}
         <div className="bg-red-600 mt-3">
@@ -247,6 +247,23 @@ function App() {
           <h1 className=" text-[#FCBF49] pe-6">padding rtl end</h1>
         </div><br />
 
+      {/* 4 ----------------- sizing --------------------- */}
+        {/* 4.1 ---------- width, min width, max width, height, min height, max height -------------- */}
+        <div className="w-96 bg-cyan-700">Width</div>
+        <div className="w-1/2 bg-cyan-700">Width</div>
+        <div className="w-full bg-cyan-700">Width</div>
+        <div className="w-auto bg-cyan-700">Width</div>
+        <div className="size-10 bg-cyan-700">Width</div>
+        <div className="size-30 bg-cyan-700">Width</div>
+        <div className="size-50 bg-cyan-700">Width</div>
+        <div className="min-w-10 bg-red-500">min width</div>
+        <div className="max-w-10 bg-red-500">max width</div>
+        <div className="h-10 bg-amber-950">height</div>
+        <div>height = same as width</div>
+
+        {/* h-screen and w-screen use in real project */}
+        <div className="inline-3xl bg-cyan-950">inline size same as prev</div>
+        <div className="block-8 bg-slate-600">block size same as prev</div>
 
 
 
