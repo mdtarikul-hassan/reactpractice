@@ -266,6 +266,44 @@ function App() {
         <div className="block-8 bg-slate-600">block size same as prev</div>
 
 
+      {/* 5 ------------------------------ Background----------------------------------- */}
+        {/* 5.1 --------------- img --------------- */}
+        {/* <div className="bg-local bg-fixed bg-scrool"></div> */}
+
+
+        {/* 5.2 ----------------- bg clip ------------- */}
+        <div className="border-4 bg-indigo-500 bg-clip-border p-3"></div>
+        <div className="border-4 bg-indigo-500 bg-clip-padding p-3"></div>
+        <div className="border-4 bg-indigo-500 bg-clip-content p-3"></div>
+        <div className="bg-linear-to-r from-pink-500 to-violet-500 bg-clip-text text-5xl font-extrabold text-transparent">Hello World</div>
+
+
+        {/* 5.3 -------------- bg color --------- */}
+        <div className="bg-cyan-400 w-10 h-10"></div>
+
+        {/* 5.4 -------------- bg position --------- */}
+        <div className="bg-red-400 size-30 rounded-full bg-top">top</div>
+        <div className="bg-red-400 size-30 rounded-full bg-bottom">bottom</div>
+        <div className="bg-red-400 size-30 rounded-full bg-left">left</div>
+        <div className="bg-red-400 size-30 rounded-full bg-rigth">right</div>
+        <div className="bg-red-400 size-30 rounded-full bg-center">center</div>
+        <div className="bg-red-400 size-30 rounded-full bg-top-left">t-l</div>
+        <div className="bg-red-400 size-30 rounded-full bg-top-right">t-r</div>
+        <div className="bg-red-400 size-30 rounded-full bg-bottom-left">b-l</div>
+        <div className="bg-red-400 size-30 rounded-full bg-bottom-right">b-r</div>
+        <div className=" bg-repeat bg-red-400 size-30 rounded-full bg-position-[center-top-1rem]"> cus</div>
+
+
+        {/* 5.5 --------------- bg size ------------------ */}
+        <div className="bg-auto"></div>
+        <div className="bg-contain"></div>
+        <div className="bg-cover"></div>
+
+
+
+
+
+
 
     </div>
   );
