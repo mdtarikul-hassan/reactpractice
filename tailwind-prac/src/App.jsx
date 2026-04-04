@@ -374,6 +374,14 @@ function App() {
           <div className="flex-auto rounded-2xl w-64-3xl bg-red-700">3 flex</div>
         </div>
 
+        {/* 7.4 ------------ grow ----------- */}
+        <h1>Flex grow</h1>
+        <div className="flex">
+          <div className="flex-none rounded-2xl w-14 bg-red-500">1 flex</div>
+          <div className="grow rounded-2xl w-32 bg-red-600">2 flex</div>
+          <div className="flex-none rounded-2xl w-64-3xl bg-red-700">3 flex</div>
+        </div>
+
 
 
 
