@@ -382,6 +382,14 @@ function App() {
           <div className="flex-none rounded-2xl w-64-3xl bg-red-700">3 flex</div>
         </div>
 
+        {/* 7.5 ----------- shrink ----------- */}
+        <h1>Flex shrink</h1>
+        <div className="flex">
+          <div className="flex-none rounded-2xl w-14 bg-red-500">1 flex</div>
+          <div className="shrink rounded-2xl w-32 bg-red-600">2 flex</div>
+          <div className="flex-none rounded-2xl w-64-3xl bg-red-700">3 flex</div>
+        </div>
+
 
 
 
