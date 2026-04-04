@@ -344,6 +344,26 @@ function App() {
           <div className="basis-10 rounded-3xl bg-red-700">3 flex col rev</div>
         </div>
 
+        {/* 7.2 ------------- wrap ------------- */}
+        <h1>Flex wrap</h1>
+        <div className="flex flex-wrap">
+          <div className="basis-60 rounded-3xl bg-red-500">1 flex wrap</div>
+          <div className="basis-60 rounded-3xl bg-red-600">2 flex wrap</div>
+          <div className="basis-60 rounded-3xl bg-red-700">3 flex wrap</div>
+        </div>
+        <h1>Flex nowrap</h1>
+        <div className="flex flex-nowrap">
+          <div className="basis-60 rounded-3xl bg-red-500">1 flex nowrap</div>
+          <div className="basis-60 rounded-3xl bg-red-600">2 flex nowrap</div>
+          <div className="basis-60 rounded-3xl bg-red-700">3 flex nowrap</div>
+        </div>
+        <h1>Flex wrap reverse</h1>
+        <div className="flex flex-wrap-reverse">
+          <div className="basis-60 rounded-3xl bg-red-500">1 flex wrap rev</div>
+          <div className="basis-60 rounded-3xl bg-red-600">2 flex wrap rev</div>
+          <div className="basis-60 rounded-3xl bg-red-700">3 flex wrap rev</div>
+        </div>
+        
 
 
 
