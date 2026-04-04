@@ -364,6 +364,17 @@ function App() {
           <div className="basis-60 rounded-3xl bg-red-700">3 flex wrap rev</div>
         </div>
         
+        {/* 7.3 --------- flex style ----------- */}
+        <h1>Flex style</h1>
+        <div className="flex">
+          <div className="flex-none rounded-2xl w-14 bg-red-500">1 flex</div>
+          <div className="flex-1 rounded-2xl w-32 bg-red-600">2 flex</div>
+          <div className="flex-2 rounded-2xl w-64-3xl bg-red-700">3 flex</div>
+          <div className="flex-initial rounded-2xl w-64-3xl bg-red-700">3 flex</div>
+          <div className="flex-auto rounded-2xl w-64-3xl bg-red-700">3 flex</div>
+        </div>
+
+
 
 
 
