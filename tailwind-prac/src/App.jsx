@@ -313,7 +313,36 @@ function App() {
         {/* 6.2 ---------------- border color --------- */}
         <div className="size-10 bg-red-500 border-black rounded-b-md"></div>
             {/* stye and another same as border and outline */}
+        
 
+
+      {/* 7 ---------------------------- flex and grid --------------------------- */}
+
+        {/* 7.1 ---------------- flex basic --------------- */}
+        <h1>Flex row</h1>
+        <div className="flex flex-row">
+          <div className="basis-10 rounded-3xl bg-red-500">1 flex row</div>
+          <div className="basis-10 rounded-3xl bg-red-600">2 flex row</div>
+          <div className="basis-10 rounded-3xl bg-red-700">3 flex row</div>
+        </div>
+        <h1>Flex row reverse</h1>
+        <div className="flex flex-row-reverse">
+          <div className="basis-10 rounded-3xl bg-red-500">1 flex row rev</div>
+          <div className="basis-10 rounded-3xl bg-red-600">2 flex row rev</div>
+          <div className="basis-10 rounded-3xl bg-red-700">3 flex row rev</div>
+        </div>
+        <h1>Flex col</h1>
+        <div className="flex flex-col">
+          <div className="basis-10 rounded-3xl bg-red-500">1 flex col</div>
+          <div className="basis-10 rounded-3xl bg-red-600">2 flex col</div>
+          <div className="basis-10 rounded-3xl bg-red-700">3 flex col</div>
+        </div>
+        <h1>Flex col reverse</h1>
+        <div className="flex flex-col-reverse">
+          <div className="basis-10 rounded-3xl bg-red-500">1 flex col rev</div>
+          <div className="basis-10 rounded-3xl bg-red-600">2 flex col rev</div>
+          <div className="basis-10 rounded-3xl bg-red-700">3 flex col rev</div>
+        </div>
 
 
 
