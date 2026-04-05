@@ -443,6 +443,18 @@ function App() {
           <div className="rounded-2xl w-14 bg-red-500">10</div>
         </div>
 
+        {/* 7.10 -------------- grid-row ------------- */}
+        <h1>Grid row</h1>
+        <div className="grid grid-flow-col grid-rows-6 gap-4">
+          <div className="row-span-4 rounded-2xl bg-red-500">1</div>
+          <div className="col-span-2 rounded-2xl bg-red-500">2</div>
+          <div className="col-span-2 col-end-7 rounded-2xl bg-red-500">3</div>
+          <div className="col-start-1 row-span-2 rounded-2xl bg-red-500">4</div>
+          <div className="col-span-3 rounded-2xl bg-red-500">5</div>
+          <div className="rounded-2xl bg-red-500">6</div>
+          <div className="col-span-1 rounded-2xl bg-red-500">7</div>
+        </div>
+
 
 
 
