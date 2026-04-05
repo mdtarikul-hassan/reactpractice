@@ -390,6 +390,17 @@ function App() {
           <div className="flex-none rounded-2xl w-64-3xl bg-red-700">3 flex</div>
         </div>
 
+        {/* 7.6 ------------ order -------------- */}
+        <h1>Flex order</h1>
+        <div className="flex justify-center">
+          <div className="order-first rounded-2xl w-14 bg-red-500">1 flex</div>
+          <div className="order-3 rounded-2xl w-14 bg-red-500">1 flex</div>
+          <div className="order-2 rounded-2xl w-32 bg-red-600">2 flex</div>
+          <div className="order-1 rounded-2xl w-64-3xl bg-red-700">3 flex</div>
+          <div className="order-last rounded-2xl w-64-3xl bg-red-700">3 flex</div>
+        </div>
+
+
 
 
 
