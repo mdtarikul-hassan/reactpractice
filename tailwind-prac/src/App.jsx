@@ -400,6 +400,21 @@ function App() {
           <div className="order-last rounded-2xl w-64-3xl bg-red-700">3 flex</div>
         </div>
 
+        {/* 7.7 -------------- grid-template-columns -------------- */}
+        <h1>Grid template columns</h1>
+        <div className="grid grid-flow-row grid-cols-4 gap-4">
+          <div className="rounded-2xl w-14 bg-red-500">1</div>
+          <div className="rounded-2xl w-14 bg-red-500">2</div>
+          <div className="rounded-2xl w-14 bg-red-500">3</div>
+          <div className="rounded-2xl w-14 bg-red-500">4</div>
+          <div className="rounded-2xl w-14 bg-red-500">5</div>
+          <div className="rounded-2xl w-14 bg-red-500">6</div>
+          <div className="col-span-3 grid grid-cols-subgrid gap-4">
+            <div className="rounded-2xl w-14 bg-red-500">7</div>
+          </div>
+        </div>
+
+
 
 
 
