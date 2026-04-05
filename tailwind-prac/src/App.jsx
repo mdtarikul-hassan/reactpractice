@@ -414,6 +414,18 @@ function App() {
           </div>
         </div>
 
+        {/* 7.8 -------------- grid-columns ------------- */}
+        <h1>Grid col span</h1>
+        <div className="grid grid-cols-6 gap-4">
+          <div className="col-span-4 col-start-2 rounded-2xl bg-red-500">1</div>
+          <div className="col-start-1 col-end-3 rounded-2xl bg-red-500">2</div>
+          <div className="col-span-2 col-end-7 rounded-2xl bg-red-500">3</div>
+          <div className="col-start-1 col-end-7 rounded-2xl bg-red-500">3</div>
+          <div className="col-span-3 rounded-2xl bg-red-500">4</div>
+          <div className="rounded-2xl bg-red-500">5</div>
+          <div className="col-span-1 rounded-2xl bg-red-500">6</div>
+        </div>
+
 
 
 
