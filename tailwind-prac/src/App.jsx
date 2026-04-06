@@ -491,6 +491,18 @@ function App() {
           <div className="rounded-2xl w-14 bg-red-500">7</div>
         </div>
 
+        {/* 7.14 ---------- grid gap ----------- */}
+        <h1>Grid gap</h1>
+        <div className="grid grid-cols-3 gap-x-8 gap-y-4">
+          <div className="rounded-2xl w-14 bg-red-500">1</div>
+          <div className="rounded-2xl w-14 bg-red-500">2</div>
+          <div className="rounded-2xl w-14 bg-red-500">3</div>
+          <div className="rounded-2xl w-14 bg-red-500">4</div>
+          <div className="rounded-2xl w-14 bg-red-500">5</div>
+          <div className="rounded-2xl w-14 bg-red-500">6</div>
+          <div className="rounded-2xl w-14 bg-red-500">7</div>
+        </div>
+
 
 
 
