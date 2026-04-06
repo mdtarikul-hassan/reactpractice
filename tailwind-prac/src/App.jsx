@@ -503,6 +503,75 @@ function App() {
           <div className="rounded-2xl w-14 bg-red-500">7</div>
         </div>
 
+        {/* 7.15 ------------ justify content --------- */}
+        <h1>justify content</h1>
+        <h3>justify center</h3>
+        <div className="flex justify-center-safe gap-1">
+          <div className="rounded-2xl w-14 bg-red-500">1</div>
+          <div className="rounded-2xl w-14 bg-red-500">2</div>
+          <div className="rounded-2xl w-14 bg-red-500">3</div>
+          <div className="rounded-2xl w-14 bg-red-500">4</div>
+          <div className="rounded-2xl w-14 bg-red-500">5</div>
+          <div className="rounded-2xl w-14 bg-red-500">6</div>
+          <div className="rounded-2xl w-14 bg-red-500">7</div>
+        </div>
+        <h3>justify end</h3>
+        <div className="flex justify-end gap-1">
+          <div className="rounded-2xl w-14 bg-red-500">1</div>
+          <div className="rounded-2xl w-14 bg-red-500">2</div>
+          <div className="rounded-2xl w-14 bg-red-500">3</div>
+          <div className="rounded-2xl w-14 bg-red-500">4</div>
+          <div className="rounded-2xl w-14 bg-red-500">5</div>
+          <div className="rounded-2xl w-14 bg-red-500">6</div>
+          <div className="rounded-2xl w-14 bg-red-500">7</div>
+        </div>
+        <h3>justify start</h3>
+        <div className="flex justify-start gap-1">
+          <div className="rounded-2xl w-14 bg-red-500">1</div>
+          <div className="rounded-2xl w-14 bg-red-500">2</div>
+          <div className="rounded-2xl w-14 bg-red-500">3</div>
+          <div className="rounded-2xl w-14 bg-red-500">4</div>
+          <div className="rounded-2xl w-14 bg-red-500">5</div>
+          <div className="rounded-2xl w-14 bg-red-500">6</div>
+          <div className="rounded-2xl w-14 bg-red-500">7</div>
+        </div>
+        <h3>justify stretch</h3>
+        <div className="grid grid-cols-[4rem_auto_4rem] justify-stretch gap-1">
+          <div className="rounded-2xl bg-red-500">1</div>
+          <div className="rounded-2xl bg-red-500">2</div>
+          <div className="rounded-2xl bg-red-500">3</div>
+        </div>
+        <h3>justify evenly</h3>
+        <div className="flex justify-evenly gap-1">
+          <div className="rounded-2xl w-14 bg-red-500">1</div>
+          <div className="rounded-2xl w-14 bg-red-500">2</div>
+          <div className="rounded-2xl w-14 bg-red-500">3</div>
+          <div className="rounded-2xl w-14 bg-red-500">4</div>
+          <div className="rounded-2xl w-14 bg-red-500">5</div>
+          <div className="rounded-2xl w-14 bg-red-500">6</div>
+          <div className="rounded-2xl w-14 bg-red-500">7</div>
+        </div>
+        <h3>justify around</h3>
+        <div className="flex justify-around gap-1">
+          <div className="rounded-2xl w-14 bg-red-500">1</div>
+          <div className="rounded-2xl w-14 bg-red-500">2</div>
+          <div className="rounded-2xl w-14 bg-red-500">3</div>
+          <div className="rounded-2xl w-14 bg-red-500">4</div>
+          <div className="rounded-2xl w-14 bg-red-500">5</div>
+          <div className="rounded-2xl w-14 bg-red-500">6</div>
+          <div className="rounded-2xl w-14 bg-red-500">7</div>
+        </div>
+        <h3>justify between</h3>
+        <div className="flex justify-between gap-1">
+          <div className="rounded-2xl w-14 bg-red-500">1</div>
+          <div className="rounded-2xl w-14 bg-red-500">2</div>
+          <div className="rounded-2xl w-14 bg-red-500">3</div>
+          <div className="rounded-2xl w-14 bg-red-500">4</div>
+          <div className="rounded-2xl w-14 bg-red-500">5</div>
+          <div className="rounded-2xl w-14 bg-red-500">6</div>
+          <div className="rounded-2xl w-14 bg-red-500">7</div>
+        </div>
+
 
 
 
