@@ -455,6 +455,18 @@ function App() {
           <div className="col-span-1 rounded-2xl bg-red-500">7</div>
         </div>
 
+        {/* 7.11 ------------- grid-auto-flow ----------- */}
+        <h1>Grid auto flolw</h1>
+        <div className="grid grid-flow-row-dense grid-rows-3 grid-cols-3 gap-4">
+          <div className="col-span-2 rounded-2xl bg-red-500">1</div>
+          <div className="col-span-2 rounded-2xl bg-red-500">2</div>
+          <div className="rounded-2xl bg-red-500">3</div>
+          <div className="rounded-2xl bg-red-500">4</div>
+          <div className="rounded-2xl bg-red-500">5</div>
+          <div className="rounded-2xl bg-red-500">6</div>
+          <div className="rounded-2xl bg-red-500">7</div>
+        </div>
+
 
 
 
