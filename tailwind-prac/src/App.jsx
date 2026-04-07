@@ -572,6 +572,18 @@ function App() {
           <div className="rounded-2xl w-14 bg-red-500">7</div>
         </div>
 
+        {/* 7.16 ---------- justify items -------------- */}
+        <h1>justify items start</h1>
+        <div className="grid grid-cols-3 justify-items-start gap-4"> {/* same as prev lots of available */}
+          <div className="rounded-2xl w-14 bg-red-500">1</div>
+          <div className="rounded-2xl w-14 bg-red-500">2</div>
+          <div className="rounded-2xl w-14 bg-red-500">3</div>
+          <div className="rounded-2xl w-14 bg-red-500">4</div>
+          <div className="rounded-2xl w-14 bg-red-500">5</div>
+          <div className="rounded-2xl w-14 bg-red-500">6</div>
+          <div className="rounded-2xl w-14 bg-red-500">7</div>
+        </div>
+
 
 
 
