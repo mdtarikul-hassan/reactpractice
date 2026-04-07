@@ -599,6 +599,20 @@ function App() {
         </div>
 
 
+        {/* 7.18 --------------- align conttent ----------- */}
+        <h1>align content</h1>
+        <div className="grid h-56 grid-cols-3 content-center gap-4"> {/* same as prev lots of available */}
+          <div className="rounded-2xl bg-red-500">1</div>
+          <div className="rounded-2xl bg-red-500">2</div>
+          <div className="rounded-2xl bg-red-500">3</div>
+          <div className="rounded-2xl bg-red-500">4</div>
+          <div className="rounded-2xl bg-red-500">5</div>
+          <div className="rounded-2xl bg-red-500">6</div>
+          <div className="rounded-2xl bg-red-500">7</div>
+        </div>
+
+
+
 
 
 
