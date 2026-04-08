@@ -661,6 +661,16 @@ function App() {
         </div>
 
 
+      {/* 8 ------------------------------ layout ------------------------------ */}
+        <h1>.................. Layout ................</h1>
+        {/* 8.1 --------- aspect-ratio ----------- */}
+        <h1>Aspect Ratio</h1>
+        <div>
+          {/* aspect auto/ square/ video/ custom available */}
+          <img className="aspect-square object-cover" src="./assets/hero.png" alt="hero.png" />
+        </div>
+
+
 
 
 
