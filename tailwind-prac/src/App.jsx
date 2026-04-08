@@ -670,7 +670,16 @@ function App() {
           <img className="aspect-square object-cover" src="./assets/hero.png" alt="hero.png" />
         </div>
 
-
+        {/* 8.2 ----------- columns ---------------- */}
+        <h1>Columns</h1>
+        <div className="columns-3">
+          {/* customize with own */}
+          <img class="aspect-square object-cover" src="./assets/hero.png" alt="hero.png" />
+          <img class="aspect-square object-cover" src="./assets/hero.png" alt="hero.png" />
+          <img class="aspect-square object-cover" src="./assets/hero.png" alt="hero.png" />
+          <img class="aspect-square object-cover" src="./assets/hero.png" alt="hero.png" />
+          <img class="aspect-square object-cover" src="./assets/hero.png" alt="hero.png" />
+        </div>
 
 
 
