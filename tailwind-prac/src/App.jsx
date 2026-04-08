@@ -681,6 +681,15 @@ function App() {
           <img class="aspect-square object-cover" src="./assets/hero.png" alt="hero.png" />
         </div>
 
+        {/* 8.3 ------------- break after ----------- */}
+        <h1>Break After</h1>
+        <div class="columns-3"> {/* columns, avoid, auto, all, page, left, right */}
+          <p>Well, let me tell you something, ...</p>
+          <p class="break-after-auto">Sure, go ahead, laugh...</p>
+          <p>Maybe we can live without...</p>
+          <p>Look. If you think this is...</p>
+        </div>
+
 
 
 
