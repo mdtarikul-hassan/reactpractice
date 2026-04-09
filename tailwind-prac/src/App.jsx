@@ -709,6 +709,14 @@ function App() {
         </div>
 
 
+        {/* 8.6 -------------- box decoration break -------------- */}
+        <div>
+          <span class="box-decoration-slice bg-linear-to-r from-indigo-600 to-pink-500 px-2 text-white">Hello <br /> World
+          </span><br />
+          <span class="box-decoration-clone bg-linear-to-r from-indigo-600 to-pink-500 px-2 text-white"> Hello <br /> World
+          </span>
+        </div>
+
 
 
 
