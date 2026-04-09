@@ -699,6 +699,15 @@ function App() {
           <p>Look. If you think this is...</p>
         </div>
 
+        {/* 8.5 ------------- break inside ----------- */}
+        <h1>Break inside</h1>
+        <div class="columns-3"> {/* columns, avoid, auto, all, page, left, right */}
+          <p>Well, let me tell you something, ...</p>
+          <p class="break-inside-avoid-page">Sure, go ahead, laugh...</p>
+          <p>Maybe we can live without...</p>
+          <p>Look. If you think this is...</p>
+        </div>
+
 
 
 
