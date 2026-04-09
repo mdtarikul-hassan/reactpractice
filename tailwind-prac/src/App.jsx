@@ -717,6 +717,15 @@ function App() {
           </span>
         </div>
 
+        {/* 8.7 ------------- border sizing ------------- */}
+        <h1>Box sizing</h1>
+        <div className="box-border size-20 border-4 p-4 bg-fuchsia-600">
+          <h1>hello</h1>
+        </div>
+        <div className="box-content size-20 border-4 p-4 bg-fuchsia-600">
+          <h1>hello</h1>
+        </div>
+
 
 
 
