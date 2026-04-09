@@ -690,6 +690,15 @@ function App() {
           <p>Look. If you think this is...</p>
         </div>
 
+        {/* 8.4 ------------- break before ----------- */}
+        <h1>Break Before</h1>
+        <div class="columns-3"> {/* columns, avoid, auto, all, page, left, right */}
+          <p>Well, let me tell you something, ...</p>
+          <p class="break-before-left">Sure, go ahead, laugh...</p>
+          <p>Maybe we can live without...</p>
+          <p>Look. If you think this is...</p>
+        </div>
+
 
 
 
