@@ -743,6 +743,15 @@ function App() {
           </p>
         </div>
 
+        {/* 8.9  --------------- float -------------- */}
+        <h1>Float</h1> {/* start, end, left, right, none */}
+        <div>
+          <article>
+            <img class="float-right" src="./assets/hero.png" />
+            <p>Maybe we can live without libraries, people like you and me. ...</p>
+          </article>
+        </div>
+
 
 
 
