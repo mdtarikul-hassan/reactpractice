@@ -762,6 +762,13 @@ function App() {
         </article>
         </div>
 
+        {/* 8.11  --------------- isolation -------------- */}
+        <h1>isolation</h1>
+        <div className="isolation">
+          <h1>demo</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, minus?</p>
+        </div>
+
 
 
 
