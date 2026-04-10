@@ -752,6 +752,16 @@ function App() {
           </article>
         </div>
 
+        {/* 8.10  --------------- clear -------------- */}
+        <h1>Clear</h1> {/* start, end, left, right, none, both */}
+        <div>
+         <article>
+          <img class="float-left ..." src="/img/snow-mountains.jpg" />
+          <img class="float-right ..." src="/img/green-mountains.jpg" />
+          <p class="clear-left ...">Maybe we can live without libraries Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti, quod.</p>
+        </article>
+        </div>
+
 
 
 
