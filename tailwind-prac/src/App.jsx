@@ -810,6 +810,15 @@ function App() {
         </div>
 
 
+        {/* 9.2 --------- text shadow --------  */}
+        <h1>text shadow</h1>
+        <div className="">
+          <p class="text-shadow-lg text-blue-700 bg-fuchsia-400">The quick brown fox...</p>
+          <p class="text-shadow-lg/20 text-blue-700 bg-fuchsia-400">The quick brown fox...</p>
+          <p class="text-shadow-lg/30 text-blue-700 bg-fuchsia-400">The quick brown fox...</p>
+        </div>
+
+        
 
 
 
