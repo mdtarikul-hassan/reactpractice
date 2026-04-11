@@ -798,6 +798,17 @@ function App() {
 
 
 
+      {/* 9 ----------------------------- effects ----------------------  */}
+        {/* 9.1 --------- box shadow --------  */}
+        <h1>box shadow</h1>
+        <div className="">
+          <div className="">
+            <button className=" text-white bg-cyan-500 shadow-lg shadow-cyan-500/50">button</button>
+            <button className=" text-white bg-cyan-500 ring-2 ring-red-500/50">innet shadow</button>
+          </div>
+          
+        </div>
+
 
 
 
