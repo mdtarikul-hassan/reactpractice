@@ -846,6 +846,19 @@ function App() {
           </h1>
         </section>
 
+        {/* 9.5 ------------ mask ---------- */}
+        <section className="flex items-center justify-center bg-black">
+
+          <div className="overflow-hidden">
+            <img
+              src="https://picsum.photos/800/500"
+              className="w-full h-full object-cover mask-radial"
+            />
+          </div>
+
+        </section>
+
+
 
 
 
