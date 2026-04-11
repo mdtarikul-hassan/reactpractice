@@ -769,6 +769,20 @@ function App() {
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, minus?</p>
         </div>
 
+        {/* 8.12 --------- object ----------- */}
+        <h1>object</h1>
+        <div>
+          {/* object cover, contain, fill, none, scale down */}
+          <img className=" object-cover" src="./assets/hero.png" alt="hero.png" />
+        </div>
+
+        {/* 8.12 --------- object position ----------- */}
+        <h1>object position</h1>
+        <div>
+          {/* object center and 8 positions (4 side and 4 corners) */}
+          <img className=" object-center" src="./assets/hero.png" alt="hero.png" />
+        </div>
+
 
 
 
