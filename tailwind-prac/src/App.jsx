@@ -819,8 +819,14 @@ function App() {
         </div>
 
         
-
-
+        {/* 9.3 ---------- opacity --------- */}
+        <h1>opacity</h1>
+        <div className="bg-amber-50">
+          <button class="bg-indigo-500 opacity-100 bg-olive-800 text-fuchsia-600"></button>
+          <button class="bg-indigo-500 opacity-75 bg-olive-800 text-fuchsia-600"></button>
+          <button class="bg-indigo-500 opacity-50 bg-olive-800 text-fuchsia-600"></button>
+          <button class="bg-indigo-500 opacity-25 bg-olive-800 text-fuchsia-600"></button>
+        </div>
 
 
 
