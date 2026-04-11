@@ -790,6 +790,13 @@ function App() {
           <img src="./assets/hero.png" alt="hero.png" />
         </div>
 
+        {/* 8.14 --------- overscrool behaviour ----------- */}
+        <h1>overscrool behaviour</h1>
+        <div className="overscroll-none">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem provident veritatis nulla quaerat reprehenderit expedita ea iste repellat perferendis laudantium laborum culpa voluptatem, ex vero placeat quod aliquam, illo suscipit odit. Harum obcaecati fuga consectetur excepturi praesentium. Neque adipisci recusandae saepe maiores placeat assumenda necessitatibus expedita sint ullam aspernatur, dolorem sapiente molestiae fugiat, eum veritatis delectus accusantium! Aut maiores eligendi ipsa a nobis? Odio velit rerum sequi? Similique quis non aliquid maxime, sapiente vero doloremque reprehenderit corporis culpa officia at molestiae excepturi quod nam sed quam. Cupiditate, quibusdam commodi illo perferendis obcaecati provident distinctio rerum, eaque porro facilis autem soluta.</p>
+        </div>
+
+
 
 
 
