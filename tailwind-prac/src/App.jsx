@@ -828,6 +828,24 @@ function App() {
           <button class="bg-indigo-500 opacity-25 bg-olive-800 text-fuchsia-600"></button>
         </div>
 
+        {/* 9.4 ---------- mix blend ----------- */}
+        <section className="relative h-screen flex items-center justify-center bg-gray-900 overflow-hidden">
+
+          {/* Background gradient */}
+          <div className="absolute inset-0 bg-gradient-to-r from-pink-500 to-blue-500" />
+
+          {/* Blended circle */}
+          <div className="absolute w-72 h-72 bg-yellow-400 rounded-full mix-blend-multiply opacity-80" />
+
+          {/* Another blended shape */}
+          <div className="absolute w-72 h-72 bg-cyan-400 rounded-full translate-x-20 mix-blend-screen opacity-80" />
+
+          {/* Text */}
+          <h1 className="relative text-white text-5xl font-bold">
+            Mix Blend Only
+          </h1>
+        </section>
+
 
 
 
