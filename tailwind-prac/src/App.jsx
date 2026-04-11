@@ -783,6 +783,13 @@ function App() {
           <img className=" object-center" src="./assets/hero.png" alt="hero.png" />
         </div>
 
+        {/* 8.13 --------- overflow ----------- */}
+        <h1>overflow</h1>
+        <div className="overflow-clip">
+          {/* overflow auto, hidden, clip, visible, scrool and all x and y position */}
+          <img src="./assets/hero.png" alt="hero.png" />
+        </div>
+
 
 
 
