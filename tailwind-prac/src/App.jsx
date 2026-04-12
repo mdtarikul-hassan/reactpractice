@@ -858,7 +858,15 @@ function App() {
 
         </section>
 
-
+        {/* 10 ----------------------------- filter ------------------------- */}
+          {/* 10.1 --------- blur ------ */}
+          <h1>blur</h1>
+          <div className="flex items-center justify-center bg-gray-100">
+            <img src="https://picsum.photos/500/300" className="blur-none rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="blur-sm rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="blur-md rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="blur-2xl rounded-lg"/>
+          </div>
 
 
 
