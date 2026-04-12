@@ -868,6 +868,15 @@ function App() {
             <img src="https://picsum.photos/500/300" className="blur-2xl rounded-lg"/>
           </div>
 
+          {/* 10.2 --------- brightness ------ */}
+          <h1>brighteness</h1>
+          <div className="flex items-center justify-center bg-gray-100">
+            <img src="https://picsum.photos/500/300" className="brightness-none rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="brightness-sm rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="brightness-md rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="brightness-2xl rounded-lg"/>
+          </div>
+
 
 
     </div>
