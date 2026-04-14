@@ -886,7 +886,15 @@ function App() {
             <img src="https://picsum.photos/500/300" className="contrast-200 rounded-lg"/>
           </div>
 
-          
+          {/* 10.4 --------- drop shadow ------ */}
+          <h1>drop shadow</h1>
+          <div className="flex items-center justify-center bg-gray-100">
+            <img src="https://picsum.photos/500/300" className="drop-shadow-sm rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="drop-shadow-md rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="drop-shadow-lg rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="drop-shadow-xl rounded-lg"/>
+          </div>
+
 
 
     </div>
