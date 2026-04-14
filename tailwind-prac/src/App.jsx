@@ -877,6 +877,16 @@ function App() {
             <img src="https://picsum.photos/500/300" className="brightness-2xl rounded-lg"/>
           </div>
 
+          {/* 10.3 --------- contrast ------ */}
+          <h1>contrast</h1>
+          <div className="flex items-center justify-center bg-gray-100">
+            <img src="https://picsum.photos/500/300" className="contrast-50 rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="contrast-100 rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="contrast-150 rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="contrast-200 rounded-lg"/>
+          </div>
+
+          
 
 
     </div>
