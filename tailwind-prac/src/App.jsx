@@ -904,6 +904,14 @@ function App() {
             <img src="https://picsum.photos/500/300" className="grayscale rounded-lg"/>
           </div>
 
+          {/* 10.6 --------- hue rotate ------ */}
+          <h1>hue-rotate</h1>
+          <div className="flex items-center justify-center bg-gray-100">
+            <img src="https://picsum.photos/500/300" className="hue-rotate-15 rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="hue-rotate-100 rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="hue-rotate-200 rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="hue-rotate-300 rounded-lg"/>
+          </div>
 
 
     </div>
