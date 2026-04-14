@@ -913,6 +913,14 @@ function App() {
             <img src="https://picsum.photos/500/300" className="hue-rotate-300 rounded-lg"/>
           </div>
 
+          {/* 10.7 --------- invert ------ */}
+          <h1>invert</h1>
+          <div className="flex items-center justify-center bg-gray-100">
+            <img src="https://picsum.photos/500/300" className="invert-0 rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="invert-20 rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="invert rounded-lg"/>
+          </div>
+
 
     </div>
   );
