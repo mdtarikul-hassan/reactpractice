@@ -895,6 +895,15 @@ function App() {
             <img src="https://picsum.photos/500/300" className="drop-shadow-xl rounded-lg"/>
           </div>
 
+          {/* 10.5 --------- grayscale ------ */}
+          <h1>grayscale</h1>
+          <div className="flex items-center justify-center bg-gray-100">
+            <img src="https://picsum.photos/500/300" className="grayscale-0 rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="grayscale-50 rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="grayscale-100 rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="grayscale rounded-lg"/>
+          </div>
+
 
 
     </div>
