@@ -930,6 +930,15 @@ function App() {
             <img src="https://picsum.photos/500/300" className="saturate-300 rounded-lg"/>
           </div>
 
+          {/* 10.9 --------- sepia ------ */}
+          <h1>sepia</h1>
+          <div className="flex items-center justify-center bg-gray-100">
+            <img src="https://picsum.photos/500/300" className="sepia-0 rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="sepia-50 rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="sepia rounded-lg"/>
+          </div>
+
+
 
     </div>
   );
