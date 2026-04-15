@@ -947,6 +947,14 @@ function App() {
             <img src="https://picsum.photos/500/300" className="backdrop-blur-2xl rounded-lg"/>
           </div>
 
+          {/* 10.11 --------- backdrop brightness ------ */}
+          <h1>backdrop brighteness</h1>
+          <div className="flex items-center justify-center bg-gray-100">
+            <img src="https://picsum.photos/500/300" className="backdrop-brightness-none rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="backdrop-brightness-sm rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="backdrop-brightness-md rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="backdrop-brightness-2xl rounded-lg"/>
+          </div>
 
 
     </div>
