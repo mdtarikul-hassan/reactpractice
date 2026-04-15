@@ -938,6 +938,15 @@ function App() {
             <img src="https://picsum.photos/500/300" className="sepia rounded-lg"/>
           </div>
 
+          {/* 10.10 --------- backdrop blur ------ */}
+          <h1>backdrop-blur</h1>
+          <div className="flex items-center justify-center bg-gray-100">
+            <img src="https://picsum.photos/500/300" className="backdrop-blur-none rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="backdrop-blur-sm rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="backdrop-blur-md rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="backdrop-blur-2xl rounded-lg"/>
+          </div>
+
 
 
     </div>
