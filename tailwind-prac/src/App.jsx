@@ -983,6 +983,14 @@ function App() {
             <img src="https://picsum.photos/500/300" className="backdrop-hue-rotate-300 rounded-lg"/>
           </div>
 
+          {/* 10.15 --------- backdrop invert ------ */}
+          <h1>backdrop invert</h1>
+          <div className="flex items-center justify-center bg-gray-100">
+            <img src="https://picsum.photos/500/300" className="backdrop-invert-0 rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="backdrop-invert-20 rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="backdrop-invert rounded-lg"/>
+          </div>
+
 
 
     </div>
