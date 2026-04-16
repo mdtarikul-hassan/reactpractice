@@ -991,6 +991,15 @@ function App() {
             <img src="https://picsum.photos/500/300" className="backdrop-invert rounded-lg"/>
           </div>
 
+          {/* 10.16 --------- backdrop saturate ------ */}
+          <h1>backdrop saturate</h1>
+          <div className="flex items-center justify-center bg-gray-100">
+            <img src="https://picsum.photos/500/300" className="backdrop-saturate-50 rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="backdrop-saturate-100 rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="backdrop-saturate-200 rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="backdrop-saturate-300 rounded-lg"/>
+          </div>
+
 
 
     </div>
