@@ -1000,6 +1000,15 @@ function App() {
             <img src="https://picsum.photos/500/300" className="backdrop-saturate-300 rounded-lg"/>
           </div>
 
+          {/* 10.17 --------- backdrop sepia ------ */}
+          <h1>backdrop sepia</h1>
+          <div className="flex items-center justify-center bg-gray-100">
+            <img src="https://picsum.photos/500/300" className="backdrop-sepia-0 rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="backdrop-sepia-50 rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="backdrop-sepia rounded-lg"/>
+          </div>
+
+
 
 
     </div>
