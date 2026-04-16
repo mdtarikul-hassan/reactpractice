@@ -965,6 +965,15 @@ function App() {
             <img src="https://picsum.photos/500/300" className="backdrop-contrast-200 rounded-lg"/>
           </div>
 
+          {/* 10.13 --------- backdrop grayscale ------ */}
+          <h1>backdrop grayscale</h1>
+          <div className="flex items-center justify-center bg-gray-100">
+            <img src="https://picsum.photos/500/300" className="backdrop-grayscale-0 rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="backdrop-grayscale-50 rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="backdrop-grayscale-100 rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="backdrop-grayscale rounded-lg"/>
+          </div>
+
 
 
     </div>
