@@ -3,7 +3,8 @@ import { useEffect, useState } from "react";
 export default function ReadData(){
   const[userData, setUserData] = useState([]);
   const[loader, setLoader] = useState(false);
-
+  // const url = "https://dummyjson.com/users";
+  const url = "http://localhost:3000/users";
   
   useEffect(() => {
     // const getUsersData = async()=>{
@@ -19,14 +20,22 @@ export default function ReadData(){
   },[])
 
   const getUsersData = async()=>{
-    // const url = "https://dummyjson.com/users";
-    const url = "http://localhost:3000/users";
     let responce = await fetch(url);
     responce = await responce.json()
     setUserData(responce)
     setLoader(false);
   }
 
+  const deleteUser = async(id) => {
+    let response = await fetch(url+"/"+id,{
+      method : "DELETE"
+    });
+    response = await response.json();
+    if(response){
+      alert("record deleted");
+      getUsersData();
+    }
+  }
   
 
 
@@ -41,6 +50,7 @@ export default function ReadData(){
               <li>{users.name}</li>
               <li>{users.age}</li>
               <li>{users.email}</li>
+              <li><button onClick={() => {deleteUser(users.id)}}>Delete</button></li>
             </ul>
           ))
           :<h1>Loading...</h1>

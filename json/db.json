@@ -1,12 +1,6 @@
 {
   "users": [
     {
-      "id": "1",
-      "name": "Emily",
-      "age": 29,
-      "email": "emily.johnson@x.dummyjson.com"
-    },
-    {
       "id": "2",
       "name": "Michael",
       "age": 36,
@@ -19,43 +13,10 @@
       "email": "sophia.brown@x.dummyjson.com"
     },
     {
-      "id": "4",
-      "name": "James",
-      "age": 46,
-      "email": "james.davis@x.dummyjson.com"
-    },
-    {
-      "name": "abcddd",
-      "age": 43,
-      "email": "aaaaa@gmail.com",
-      "id": "cDgd11_fxDg"
-    },
-    {
-      "id": "VidVWn853ew"
-    },
-    {
       "name": "a7b7",
       "age": "25",
       "email": "a@gmail.com",
       "id": "ObZiX_aGelM"
-    },
-    {
-      "name": "a7b7",
-      "age": "25",
-      "email": "a@gmail.com",
-      "id": "XHbqP3rQIxU"
-    },
-    {
-      "name": "new",
-      "age": "1",
-      "email": "new@twst.com",
-      "id": "ggkdbTve7yQ"
-    },
-    {
-      "name": "a",
-      "age": "1",
-      "email": "a@gmail.com",
-      "id": "eqP_ddIHUis"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
