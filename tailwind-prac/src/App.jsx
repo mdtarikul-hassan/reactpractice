@@ -1090,6 +1090,38 @@ function App() {
             </table>
           </div>
 
+          {/* 11.3 ---------- caption top ------------ */}
+          <div>
+            <h1>caption top</h1>
+            <table class=" border border-gray-400 bg-cyan-900 text-gray-300">
+              <caption class="caption-top text-amber-950">
+                Table 3.1: Professional wrestlers and their signature moves.
+              </caption>
+              <thead>
+                <tr>
+                  <th class="border border-gray-300 bg-cyan-900 text-gray-300">State</th>
+                  <th class="border border-gray-300 bg-cyan-900 text-gray-300">City</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="border border-gray-300 bg-cyan-900 text-gray-300">Indiana</td>
+                  <td class="border border-gray-300 bg-cyan-900 text-gray-300">Indianapolis</td>
+                </tr>
+                <tr>
+                  <td class="border border-gray-300 bg-cyan-900 text-gray-300">Ohio</td>
+                  <td class="border border-gray-300 bg-cyan-900 text-gray-300">Columbus</td>
+                </tr>
+                <tr>
+                  <td class="border border-gray-300 bg-cyan-900 text-gray-300">Michigan</td>
+                  <td class="border border-gray-300 bg-cyan-900 text-gray-300">Detroit</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+
+
 
 
 
