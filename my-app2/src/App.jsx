@@ -1,4 +1,5 @@
 import AddData from "./api/AddData"
+import EditUser from "./api/EditUser"
 import ReadData from "./api/readData"
 import {NavLink, Route, Routes} from 'react-router-dom'
 
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<ReadData />} />
         <Route path="/add" element={<AddData />} />
+        <Route path="/edit/:id" element={<EditUser />} />
       </Routes>
     </>
   )

@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router";
 
 export default function ReadData(){
   const[userData, setUserData] = useState([]);
   const[loader, setLoader] = useState(false);
+  const navigate = useNavigate();
   // const url = "https://dummyjson.com/users";
   const url = "http://localhost:3000/users";
   
@@ -37,6 +39,9 @@ export default function ReadData(){
     }
   }
   
+  const editUser = (id) => {
+    navigate("/edit/"+id)
+  }
 
 
   return (
@@ -50,6 +55,7 @@ export default function ReadData(){
               <li>{users.name}</li>
               <li>{users.age}</li>
               <li>{users.email}</li>
+              <li><button onClick={() => {editUser(users.id)}}>Edit</button></li>
               <li><button onClick={() => {deleteUser(users.id)}}>Delete</button></li>
             </ul>
           ))
