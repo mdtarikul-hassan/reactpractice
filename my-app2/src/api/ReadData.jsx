@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 export default function ReadData(){
   const[userData, setUserData] = useState([]);
-  const[loader, setLoader] = useState();
+  const[loader, setLoader] = useState(false);
 
   
   useEffect(() => {
@@ -12,16 +12,18 @@ export default function ReadData(){
     //   responce = await responce.json()
     //   setUserData(responce.users)
     // }
-    
-    getUsersData();
+
     setLoader(true);
+    getUsersData();
     
   },[])
+
   const getUsersData = async()=>{
-    const url = "https://dummyjson.com/users";
+    // const url = "https://dummyjson.com/users";
+    const url = "http://localhost:3000/users";
     let responce = await fetch(url);
     responce = await responce.json()
-    setUserData(responce.users)
+    setUserData(responce)
     setLoader(false);
   }
 
@@ -35,9 +37,10 @@ export default function ReadData(){
         {
           !loader?
           userData && userData.map((users) => (
-            <ul>
-              <li>{users.firstName} {users.lastName}</li>
+            <ul key={users.id}>
+              <li>{users.name}</li>
               <li>{users.age}</li>
+              <li>{users.email}</li>
             </ul>
           ))
           :<h1>Loading...</h1>
