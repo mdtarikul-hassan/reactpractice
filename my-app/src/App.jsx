@@ -15,7 +15,7 @@ import First from "./First"
 import Timer from "./Timer"
 import WindowSizeTracker from "./WindowSizeTracker"
 import Users from "./Users"
-import { BrowserRouter, Routes, Route, Link, useParams, NavLink} from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Link, useParams, NavLink, Navigate} from 'react-router-dom'
 
 import Home from "./Home"
 import About from "./About"
@@ -78,12 +78,13 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          {/* <Route path="/user/:id" element={<User />} /> */}
+          <Route path="/user/:id" element={<User />} />
           <Route path="/products" element={<Products />} >
             <Route path="phone" element={<Phone />} />
             <Route path="laptop" element={<Laptop />} />
           </Route>
-          <Route path="*" element={<NotFound />} />
+          {/* <Route path="*" element={"page not found"} /> */}
+          <Route path="/*" element={<Navigate to={"/"}/>}/>
         </Routes>
       </BrowserRouter>
       <hr />
