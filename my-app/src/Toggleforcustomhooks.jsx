@@ -9,6 +9,7 @@ function Toggleforcustomhooks() {
         <div>
             <button onClick={VisibleOpen}>Toggle</button>
             {isOpen && <p>Hey, Welcome</p>}
+            {/* use activity instead of toggle for better user experiance */}
         </div>
     </div>
   )
