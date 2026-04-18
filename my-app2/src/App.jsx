@@ -3,9 +3,14 @@ import AddData from "./api/AddData"
 import EditUser from "./api/EditUser"
 import ReadData from "./api/readData"
 import {NavLink, Route, Routes} from 'react-router-dom'
+import UseApi from "./UseApi"
 // import LazyLoadingData from "./LazyLoadingData"
 const LazyLoadingData = lazy(() => import('./LazyLoadingData'))
 
+
+
+const fetchData = () => fetch('http://localhost:3000/users').then((response) => response.json());
+const userResource = fetchData();
 
 function App() {
   const [load,setLoad] = useState(false);
@@ -22,6 +27,14 @@ function App() {
       <button onClick={() => setLoad(true)}>LazyLoading</button>
       {/* { load ? <LazyLoadingData/> : null}  */}
       { load ? <Suspense fallback={<h3>lazy loading....</h3>} ><LazyLoadingData/></Suspense> : null }
+
+
+      {/* use api */}
+      <h1>Use Api in react</h1>
+            <Suspense fallback={<h3>loading...</h3>}>
+                <UseApi userResource={userResource}/>
+            </Suspense>
+            {/* that currently not working */}
     </>
   )
 }
