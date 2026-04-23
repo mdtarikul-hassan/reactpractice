@@ -1130,6 +1130,14 @@ function App() {
             </button>
           </div>
 
+          {/* 12.2 --------- transition duration ------------- */}
+          <div>
+            <h1>Transition duration</h1>
+            <button class="bg-blue-500 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 text-white rounded-sm">Save duration 1</button>
+            <button class="bg-blue-500 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 text-white rounded-sm">Save duration 2</button>
+            <button class="bg-blue-500 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 text-white rounded-sm">Save duration 3</button>
+          </div>
+
 
 
 
