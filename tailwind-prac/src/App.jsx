@@ -1154,6 +1154,17 @@ function App() {
             <button class="bg-blue-500 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 text-white rounded-sm">ease in out 3</button>
           </div>
 
+          {/* 12.5 ----------- animation ------------ */}
+          <div>
+            <h1>animation</h1>
+              <button class="animate-spin bg-blue-500 text-white rounded-2xl p-5">spin</button>
+              <button class="animate-ping bg-blue-500 text-white rounded-2xl p-5">ping</button>
+              <button class="animate-pulse bg-blue-500 text-white rounded-2xl p-5">pulse</button>
+              <button class="animate-bounce bg-blue-500 text-white rounded-2xl p-5">bounce</button>
+
+          </div>
+
+
 
 
 
