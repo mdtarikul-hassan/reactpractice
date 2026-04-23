@@ -1121,6 +1121,15 @@ function App() {
           </div>
 
 
+        {/* 12 ---------------------------------- transition and animation --------------------------- */}
+          {/* 12.1 --------- transition property ------------- */}
+          <div>
+            <h1>Transition Property</h1>
+            <button class="bg-blue-500 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 text-white">
+              Save Changes
+            </button>
+          </div>
+
 
 
 
