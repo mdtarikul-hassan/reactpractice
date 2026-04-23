@@ -1146,6 +1146,14 @@ function App() {
             <button class="bg-blue-500 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 text-white rounded-sm">Save delay 3</button>
           </div>
 
+          {/* 12.4 --------- transition timing function ------------- */}
+          <div>
+            <h1>Transition timing function</h1>
+            <button class="bg-blue-500 transition delay-150 duration-300 ease hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 text-white rounded-sm">eade 1</button>
+            <button class="bg-blue-500 transition delay-150 duration-300 ease-in hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 text-white rounded-sm">ease in 2</button>
+            <button class="bg-blue-500 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 text-white rounded-sm">ease in out 3</button>
+          </div>
+
 
 
 
