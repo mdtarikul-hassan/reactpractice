@@ -1191,6 +1191,11 @@ function App() {
           </div>
 
 
+        {/* ------------------------------- complete tailwind css (majority part) --------------------------- */}
+
+
+
+
 
 
     </div>
