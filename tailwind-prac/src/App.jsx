@@ -1182,6 +1182,14 @@ function App() {
             <img src="https://picsum.photos/500/300" className="scale-150 rounded-lg"/>
           </div>
 
+          {/* 13.3 --------------- skew ------------- */}
+          <h1>skew</h1>
+          <div className="flex items-center justify-center bg-gray-100">
+            <img src="https://picsum.photos/500/300" className="skew-3 rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="skew-6 rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="skew-12 rounded-lg"/>
+          </div>
+
 
 
 
