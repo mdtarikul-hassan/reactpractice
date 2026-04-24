@@ -1165,6 +1165,15 @@ function App() {
           </div>
 
 
+        {/* 13 --------------------- transformers --------------- */}
+          {/* 13.1 --------------- rotate ------------- */}
+          <h1>rotate</h1>
+          <div className="flex items-center justify-center bg-gray-100">
+            <img src="https://picsum.photos/500/300" className="rotate-1 rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="rotate-90 rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="rotate-210 rounded-lg"/>
+          </div>
+
 
 
 
