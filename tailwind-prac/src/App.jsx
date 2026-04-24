@@ -1174,6 +1174,14 @@ function App() {
             <img src="https://picsum.photos/500/300" className="rotate-210 rounded-lg"/>
           </div>
 
+          {/* 13.2 --------------- scale ------------- */}
+          <h1>scale</h1>
+          <div className="flex items-center justify-center bg-gray-100">
+            <img src="https://picsum.photos/500/300" className="scale-75 rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="scale-100 rounded-lg"/>
+            <img src="https://picsum.photos/500/300" className="scale-150 rounded-lg"/>
+          </div>
+
 
 
 
