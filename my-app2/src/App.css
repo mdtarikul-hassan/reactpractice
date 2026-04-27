@@ -387,3 +387,7 @@ button {
 button:hover {
   opacity: 0.9;
 }
+.added-to-cart{
+  background-color: #deebff
+  
+}
