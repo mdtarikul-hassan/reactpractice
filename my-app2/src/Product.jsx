@@ -1,19 +1,33 @@
-import { useDispatch } from "react-redux"
+import { useDispatch, useSelector } from "react-redux"
 import AddToCart from "./AddToCart"
 import { addItem, removeItem } from "./redux/slice"
+import { useEffect } from "react"
+import { fetchProducts } from "./redux/ProductSlice"
 
 const Product = () => {
     const dispatch = useDispatch()
+    useEffect(()=>{
+        dispatch(fetchProducts())
+    },[])
+    const productselector = useSelector((state)=>state.products.items)
+    console.log(productselector);
     return (
-      
         <section className="product-container">
-        <div className="product-card">
-            <img src="https://imgs.search.brave.com/21XVfb64ujzNCzX2C2GzlITiR7Occ-YfgVy-CJESq3w/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NzFJRGxucGFINkwu/anBn" alt="Product"/>
-            <div className="product-title">Cool Sneakers</div>
-            <div className="product-price">$49.99</div>
-            <button className="add-to-cart" onClick={()=>dispatch(addItem(1))}>Add to Cart</button>
-            <button className="remove-to-cart" onClick={()=>dispatch(removeItem(1))}>Remove from Cart</button>
-        </div>
+        {
+            productselector.length && productselector.map((item)=>(
+                <div key={item.id} className="product-card">
+                    <img src={item.thumbnail} alt="Product"/>
+                    <div className="product-title">{item.title}</div>
+                    <div className="product-price">${item.price}</div>
+                    <div className="btn-group">
+                        <button className="add-to-cart" onClick={()=>dispatch(addItem(1))}>Add to Cart</button>
+                        <button className="remove-to-cart" onClick={()=>dispatch(removeItem(1))}>Remove from Cart</button>
+                    </div>
+
+                </div>
+            ))
+        }
+        
         </section>
        
     )
