@@ -2,6 +2,7 @@ import { useDispatch, useSelector } from "react-redux"
 import AddToCart from "./AddToCart"
 import { addItem, removeItem } from "./redux/slice"
 import { useEffect } from "react"
+// import { clearAllItems } from "./redux/slice"
 import { fetchProducts } from "./redux/ProductSlice"
 
 const Product = () => {
@@ -14,7 +15,10 @@ const Product = () => {
 
     const cartselector = useSelector((state) => state.cart.items);
     console.log(cartselector)
+
+
     return (
+        // <button className="add-to-cart" onClick={()=>dispatch(clearAllItems())}>clear Cart</button>
         <section className="product-container">
         {
             productselector.length && productselector.map((item)=>(
