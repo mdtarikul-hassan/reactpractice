@@ -4,6 +4,8 @@ import EditUser from "./api/EditUser"
 import ReadData from "./api/readData"
 import {NavLink, Route, Routes} from 'react-router-dom'
 import UseApi from "./UseApi"
+import Header from "./Header"
+import Product from "./Product"
 // import LazyLoadingData from "./LazyLoadingData"
 const LazyLoadingData = lazy(() => import('./LazyLoadingData'))
 
@@ -17,7 +19,9 @@ function App() {
 
   return(
     <>
-    <nav> <NavLink to="/">Home</NavLink> | <NavLink to="/add">Add User</NavLink> </nav>
+    {/* <nav> <NavLink to="/">Home</NavLink> | <NavLink to="/add">Add User</NavLink> </nav> */}
+    <Header/>
+    <Product/>
       <Routes>
         <Route path="/" element={<ReadData />} />
         <Route path="/add" element={<AddData />} />
