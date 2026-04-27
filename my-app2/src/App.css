@@ -300,3 +300,19 @@
     .add-to-cart:hover {
       background: #e67e22;
     }
+
+    .remove-to-cart {
+      background: #ff1e1e;
+      color: #fcfc55;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s;
+      margin-left: 5px;
+    }
+
+    .remove-to-cart:hover {
+      background: #af1b07;
+    } 

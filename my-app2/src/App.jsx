@@ -6,6 +6,8 @@ import {NavLink, Route, Routes} from 'react-router-dom'
 import UseApi from "./UseApi"
 import Header from "./Header"
 import Product from "./Product"
+import { useDispatch } from "react-redux"
+import { clearAllItems } from "./redux/slice"
 // import LazyLoadingData from "./LazyLoadingData"
 const LazyLoadingData = lazy(() => import('./LazyLoadingData'))
 
@@ -16,11 +18,13 @@ const userResource = fetchData();
 
 function App() {
   const [load,setLoad] = useState(false);
-
+  const dispatch = useDispatch()
   return(
     <>
     {/* <nav> <NavLink to="/">Home</NavLink> | <NavLink to="/add">Add User</NavLink> </nav> */}
     <Header/>
+      <button className="add-to-cart" onClick={()=>dispatch(clearAllItems())}>clear Cart</button>
+  
     <Product/>
       <Routes>
         <Route path="/" element={<ReadData />} />
