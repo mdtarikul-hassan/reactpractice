@@ -27,7 +27,7 @@ function App() {
         <Route path="/cart" element={<CartListing/>} />
       </Routes>
 
-      
+      {/* complete redux with store, slice, data store in local storage, useDispatch for addToCrt and removeFromCart button, and many .... */}
     </>
   )
 }
