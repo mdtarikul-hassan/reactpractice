@@ -1,23 +1,75 @@
 import { useDispatch, useSelector } from "react-redux";
 import { removeItem } from "./redux/slice";
+import { useEffect, useState } from "react";
 
 export default function CartListing(){
     const cartselector = useSelector((state) => state.cart.items);
     console.log(cartselector)
     const dispatch = useDispatch()
+
+
+    // const [cartItems, setCartItems] = useState(cartselector)
+    // const manageQuantity = (id, qty) => {
+    //     let quantity = parseInt(qty)>1 ? parseInt(qty):1
+    //     const crtTempItems = cartselector.map((item) => {
+    //         return item.id == id?{...item.quantity}:item
+    //     })
+    //     setCartItems(cartTempItems)
+    // }
+
+    const [cartItems, setCartItems] = useState([]);
+
+    useEffect(() => {
+        setCartItems(cartselector);
+    }, [cartselector]);
+
+    const handleIncrease = (id) => {
+        const updated = cartItems.map((item) =>
+            item.id === id
+                ? { ...item, quantity: (item.quantity || 1) + 1 }
+                : item
+        );
+        setCartItems(updated);
+    };
+
+    const handleDecrease = (id) => {
+        const updated = cartItems.map((item) =>
+            item.id === id
+                ? {
+                      ...item,
+                      quantity:
+                          item.quantity && item.quantity > 1
+                              ? item.quantity - 1
+                              : 1,
+                  }
+                : item
+        );
+        setCartItems(updated);
+    };
     return (
         <>
             <div class="cart-container">
                 <h2>Your Cart</h2>
                 {
-                    cartselector.length && cartselector.map((item) => (
+                    cartItems.length>0 && cartItems.map((item) => (
                         <div key={item.id} class="cart-item">
                             <div className="item-left">
                                 <img src={item.thumbnail} alt="Product"/>
                                 <div className="item-info">
                                     <span>{item.title}</span>
-                                    <span className="price">₹{item.price}</span>
+                                    <span className="price">₹
+                                        {
+                                        // item.quantity?item.price*item.quantity : item.price
+                                        ((item.quantity || 1) * item.price).toFixed(2)
+                                        }
+                                        </span>
+                                    <div className="quantity-box">
+                                        <button onClick={() => handleDecrease(item.id)} className="qty-btn minus">-</button>
+                                        <span className="qty-value">{item.quantity || 1}</span>
+                                        <button onClick={() => handleIncrease(item.id)} className="qty-btn plus">+</button>
+                                    </div>
                                 </div>
+                                
                             </div>
                             <button className="remove-btn" onClick={()=>dispatch(removeItem(item))}>Remove from cart</button>
                             
@@ -26,11 +78,13 @@ export default function CartListing(){
                 }
 
                 <div class="total-section">
-                    <h3>Total: ₹{cartselector.reduce((sum,item) => sum+item.price,0).toFixed(2)}</h3>
+                    <h3>Total: ₹{cartItems.reduce((sum,item) =>
+                        // item.quantity? sum+item.price*item.quantity : sum+item.price
+                        sum+(item.quantity || 1)* item.price
+                        ,0).toFixed(2)}</h3>
                     <button className="checkout-btn">Checkout</button>
                 </div>
             </div>
-    
         </>
 
     )

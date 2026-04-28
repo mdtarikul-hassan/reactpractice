@@ -472,3 +472,28 @@ button:hover {
     .checkout-btn:hover {
         background: #218838;
     }
+
+        .quantity-box {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-top: 5px;
+    }
+
+    .qty-btn {
+        padding: 4px 10px;
+        border: none;
+        background: #007bff;
+        color: white;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+
+    .qty-btn:hover {
+        background: #0056b3;
+    }
+
+    .qty-value {
+        min-width: 20px;
+        text-align: center;
+    }
