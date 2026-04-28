@@ -1,12 +1,13 @@
 import { useDispatch, useSelector } from "react-redux";
-import { removeItem } from "./redux/slice";
+import { clearAllItems, removeItem } from "./redux/slice";
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router";
 
 export default function CartListing(){
     const cartselector = useSelector((state) => state.cart.items);
     console.log(cartselector)
     const dispatch = useDispatch()
-
+    const navigate = useNavigate()
 
     // const [cartItems, setCartItems] = useState(cartselector)
     // const manageQuantity = (id, qty) => {
@@ -46,6 +47,13 @@ export default function CartListing(){
         );
         setCartItems(updated);
     };
+
+    const onHandleChange= ()=> {
+        localStorage.clear();
+        dispatch(clearAllItems());
+        alert("Your Order is Placed...");
+        navigate("/products");
+    }
     return (
         <>
             <div class="cart-container">
@@ -77,12 +85,12 @@ export default function CartListing(){
                     ))
                 }
 
-                <div class="total-section">
+                <div className="total-section">
                     <h3>Total: ₹{cartItems.reduce((sum,item) =>
                         // item.quantity? sum+item.price*item.quantity : sum+item.price
                         sum+(item.quantity || 1)* item.price
                         ,0).toFixed(2)}</h3>
-                    <button className="checkout-btn">Checkout</button>
+                    <button onClick={() => onHandleChange()} className="checkout-btn">Place order</button>
                 </div>
             </div>
         </>
